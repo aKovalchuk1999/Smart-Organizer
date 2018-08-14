@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "855899430649",
+    "firebase_url": "https://mysmartorganizer.firebaseio.com",
+    "project_id": "mysmartorganizer",
+    "storage_bucket": "mysmartorganizer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855899430649:android:1244c56be0518ae9",
+        "android_client_info": {
+          "package_name": "com.android.rivchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855899430649-r3lkd3t7lv0a3ejtebbc4g0mpnu9bpaf.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "855899430649-r3lkd3t7lv0a3ejtebbc4g0mpnu9bpaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg1S4737RqvM7AyD0_aOJOZDkUmKcSoG4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

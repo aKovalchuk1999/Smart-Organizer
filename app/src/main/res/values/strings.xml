@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Smart Organizer</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">About</string>
+    <string name="login_success">login success</string>
+    <string name="login">LOGIN</string>
+    <string name="Username">Email</string>
+    <string name="Password">Пароль</string>
+    <string name="forgot_your_password">Забули пароль ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Повторіть пароль</string>
+    <string name="next">NEXT</string>
+    <string name="register">Реєстрація</string>
+
+    <string name="hint_username">Введіть свій нік</string>
+    <string name="hint_email_reset">Введіть сві email</string>
+    <string name="enter_group_name">Назва групи</string>
+
+
+    <string name="lbl_new_note_title">Нова нотатка</string>
+    <string name="lbl_edit_note_title">Редагувати нотатку</string>
+    <string name="title_activity_shedule">SheduleActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_sound_rozklad">SoundRozkladActivity</string>
+
+</resources>

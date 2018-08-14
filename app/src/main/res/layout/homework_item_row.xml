@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:paddingTop="5dp">
+
+    <LinearLayout
+        android:id="@+id/color_linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/homework_item_left_color"
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark" />
+
+        <LinearLayout
+            android:id="@+id/color_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="2dp">
+            <TextView
+                android:id="@+id/homework_subject_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="РЗКСА"
+                />
+            <TextView
+                android:id="@+id/homework_homework"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:text="Завдання 312, 313, 314. Повторити функції введення/виведення!"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right">
+
+                <TextView
+                    android:id="@+id/priority_symbol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:includeFontPadding="false"
+                    android:lineSpacingExtra="0dp"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+                <TextView
+                    android:id="@+id/homework_priority"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:layout_gravity="center"
+                    android:gravity="right|center"
+                    android:text="Важливе"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

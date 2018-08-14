@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/lineadID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_add_white_24dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Редагувати предмет"
+            android:gravity="center"
+            android:textSize="28dp"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_subject_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Назва предмету..."
+        android:layout_below="@+id/lineadID"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/edit_subject_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Викладач..."
+        android:layout_below="@+id/edit_subject_name"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>

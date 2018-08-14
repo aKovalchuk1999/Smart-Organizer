@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action1"
+        android:icon="@drawable/ic_week_list"
+        android:title="Розклад дзвінків"
+        />
+
+    <item
+        android:id="@+id/action2"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:title="Список предметів"
+        />
+
+    <item
+        android:id="@+id/action3"
+        android:icon="@drawable/ic_week_list"
+        android:title="Додати заняття"
+        />
+</menu>
